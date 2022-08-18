@@ -128,6 +128,9 @@ Start the stack
 ```bash
 docker-compose up -d
 ```
+```bash
+php artisan migrate --seed --force
+```
 
 ## Create a User
 
